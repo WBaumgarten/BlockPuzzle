@@ -33,7 +33,6 @@ public class Map {
                 cols = Integer.parseInt(dim[1]);
                 sc.nextLine();
             }
-            System.out.println("rows = " + rows + "\ncols = " + cols);
             tiles = new int[rows][cols];
             for (int i = 0; i < rows; i++) {
                 String[] line = sc.next().split("\\.");
