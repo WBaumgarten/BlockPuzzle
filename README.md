@@ -1,14 +1,8 @@
 # BlockPuzzle
 Quick puzzle game about moving blocks with an easy way to create levels
-Currently there is only one puzzle and no way to select others, puzzle selection is hardcoded.\n
+Currently there is only one puzzle and no way to select others, puzzle selection is hardcoded.
 
-Puzzle Template:
-Rows.Cols
-x.x.x.x.
-x.x.x.x.\n
-x.x.x.x.
-
-Instead of "x" use the following:
+Creating puzzles: Create a text file in the "maps" directory. In the text file define the rows and cols first, then create the layout as follows, (use "puzzle1" as reference):
 f. = floor
 w. = wall
 p. = player
