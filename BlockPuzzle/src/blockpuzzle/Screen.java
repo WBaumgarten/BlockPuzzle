@@ -30,13 +30,13 @@ public class Screen extends JPanel{
     
     private void loadImgs() {
         try {
-            wallImg = ImageIO.read(new File("res\\wall.jpg"));
-            floorImg = ImageIO.read(new File("res\\floor.jpg"));
-            boxImg = ImageIO.read(new File("res\\box.jpg"));
-            goalBoxImg = ImageIO.read(new File("res\\goalBox.jpg"));
-            playerImg = ImageIO.read(new File("res\\player.jpg"));
-            goalImg = ImageIO.read(new File("res\\goal.jpg"));
-            victoryImg = ImageIO.read(new File("res\\victory.png"));
+            wallImg = ImageIO.read(new File("src\\blockpuzzle\\res\\wall.jpg"));
+            floorImg = ImageIO.read(new File("src\\blockpuzzle\\res\\floor.jpg"));
+            boxImg = ImageIO.read(new File("src\\blockpuzzle\\res\\box.jpg"));
+            goalBoxImg = ImageIO.read(new File("src\\blockpuzzle\\res\\goalBox.jpg"));
+            playerImg = ImageIO.read(new File("src\\blockpuzzle\\res\\player.jpg"));
+            goalImg = ImageIO.read(new File("src\\blockpuzzle\\res\\goal.jpg"));
+            victoryImg = ImageIO.read(new File("src\\blockpuzzle\\res\\victory.png"));
         } catch (IOException ex) {
             Logger.getLogger(Screen.class.getName()).log(Level.SEVERE, null, ex);
         }
